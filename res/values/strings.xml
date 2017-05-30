@@ -8,6 +8,30 @@
     <string name="exit_icon_description">退出图标</string>
     <string name="start_icon_description">开始图标(南开校徽)</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
+
+
+    <string name="zhulou_button_text">"主    楼"</string>
+    <string name="continue_journey_text">"继    续"</string>
+
+
+
+
+
+
+
+    <string name="intro_Nankai_University">
+        "  南开大学是国家教育部直属重点综合性大学，是敬爱的周恩来总理的母校。\n"
+        "  南开大学由严修、张伯苓秉承教育救国理念创办，肇始于1904年，成立于1919年。1937年校园遭侵华日军炸毁，学校南迁。1938年与北京大学、清华大学合组西南联合大学，被誉为“学府北辰”。\n"
+        "  1946年回津复校并改为国立。新中国成立后，经历高等教育院系调整，成为文理并重的全国重点大学。改革开放以来，天津对外贸易学院、中国旅游管理干部学院相继并入，经教育部与天津市共建支持，学校发展成为国家“211工程”和“985工程”重点建设的综合性研究型大学。\n"
+    </string>
+
+
+
+
+
+
+
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -97,5 +121,7 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
+
 
 </resources>
