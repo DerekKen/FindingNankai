@@ -14,19 +14,22 @@
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".WanderingActivity"
-            android:theme="@style/WanderingActivityTheme">
+            android:theme="@style/OtherActivityTheme">
             <intent-filter>
                 <action android:name="android.intent.action.WANDERING_ACTION" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.CAT_WANDERING" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

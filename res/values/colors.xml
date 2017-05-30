@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#311B92</color>
+    <color name="colorAccent">#FFEB3B</color>
 
     <color name="startButtonColor">#673AB7</color>
-    <color name="startButtonPressedColor">#B39DDB</color>
+    <color name="startButtonPressedColor">#311B92</color>
 
-    <color name="exitButtonColor">#FFEB3B</color>
-    <color name="exitButtonPressedColor">#FFF59D</color>
+    <color name="exitButtonColor">#FFFF00</color>
+    <color name="exitButtonPressedColor">#FFD600</color>
 
 </resources>

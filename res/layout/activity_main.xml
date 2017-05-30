@@ -107,7 +107,7 @@
         android:paddingRight="16dp"
         android:paddingTop="14dp"
         android:text="@string/exit_button_text"
-        android:textColor="#7E57C2"
+        android:textColor="@color/startButtonColor"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
