@@ -12,6 +12,6 @@
 
 
     <color name="opaqueButtonColor">#99673AB7</color>
-    <color name="opaqueButtonPressedColor">#311B92</color>
+    <color name="opaqueButtonPressedColor">#99311B92</color>
 
 </resources>
