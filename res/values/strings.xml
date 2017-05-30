@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Finding Nankai</string>
+    <string name="welcome_heading">"发    现    南    开"</string>
+    <string name="start_button_text">"开    始"</string>
+    <string name="exit_button_text">"退    出"</string>
+    <string name="title_activity_wandering">WanderingActivity</string>
+    <string name="start_button_pressed_toast">开启发现南开之旅</string>
+
+</resources>
