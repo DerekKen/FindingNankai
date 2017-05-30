@@ -5,5 +5,7 @@
     <string name="exit_button_text">"退    出"</string>
     <string name="title_activity_wandering">WanderingActivity</string>
     <string name="start_button_pressed_toast">开启发现南开之旅</string>
+    <string name="exit_icon_description">退出图标</string>
+    <string name="start_icon_description">开始图标(南开校徽)</string>
 
 </resources>

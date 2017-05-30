@@ -10,11 +10,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cn.studyjams.s2.sj0175.findingnankai.WanderingActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_horizontal"
-        android:text="NKU"
-        android:textSize="100sp" />
-
 </LinearLayout>
