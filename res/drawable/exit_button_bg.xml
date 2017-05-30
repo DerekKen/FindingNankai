@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 设置当按钮被点击时的颜色 -->
     <item android:state_pressed="true">
         <shape>
             <corners android:radius="96dp" />
-            <solid android:color="#F57F17" />
+            <solid android:color="@color/exitButtonPressedColor" />
         </shape>
     </item>
+
+    <!-- 设置按钮普通状态下的颜色 -->
     <item>
         <shape>
             <corners android:radius="96dp" />
-            <solid android:color="#FFEE58" />
+            <solid android:color="@color/exitButtonColor" />
         </shape>
     </item>
 </selector>

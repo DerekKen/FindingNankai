@@ -6,6 +6,9 @@
 
 
     <color name="startButtonColor">#673AB7</color>
+    <color name="startButtonPressedColor">#B39DDB</color>
 
+    <color name="exitButtonColor">#FFEB3B</color>
+    <color name="exitButtonPressedColor">#FFF59D</color>
 
 </resources>
