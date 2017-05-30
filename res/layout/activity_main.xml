@@ -145,7 +145,7 @@
         app:layout_constraintLeft_toLeftOf="@+id/v_guideline_01"
         app:layout_constraintRight_toLeftOf="@+id/v_guideline_02"
         app:layout_constraintTop_toTopOf="@+id/h_guideline_startBtn_top"
-        app:layout_constraintVertical_bias="0.888"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/nku_logo_1200x1200" />
 
 
