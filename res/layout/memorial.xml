@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.studyjams.s2.sj0175.findingnankai.WanderingActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:src="@drawable/memorial" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/opaque_button_bg"
+        android:fontFamily="sans-serif"
+        android:onClick="on_back_btn_click"
+        android:text="@string/back_btn_text"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="16dp"
+            android:text="@string/intro_memorial"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </ScrollView>
+
+</LinearLayout>

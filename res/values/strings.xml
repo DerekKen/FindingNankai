@@ -11,10 +11,13 @@
 
 
     <string name="zhulou_button_text">"主    楼"</string>
+    <string name="erzhulou_button_text">"二    主    楼"</string>
+    <string name="ma_ti_hu_button_text">"马    蹄    湖"</string>
     <string name="xinkai_button_text">"新    开    湖"</string>
     <string name="memorial_button_text">"西  南  联  大  纪  念  碑"</string>
     <string name="premier_button_text">"总    理    雕    像"</string>
     <string name="continue_journey_text">"继    续"</string>
+    <string name="back_btn_text">"返    回"</string>
 
 
     <string name="intro_Nankai_University">
@@ -25,7 +28,20 @@
         "  P.S:南开大学的校色是紫色。"
     </string>
 
+    <string name="intro_xin_kai_lake">
+      "  新开湖是南开大学八里台校区内的一个人工湖。 定名新开湖，一者是指新开挖的湖，二者又有新的南开的意思。\n"
+      "  湖水清澈，风景优美，湖边四周设有坐凳，可以供人们休息。新开湖北面是南开大学历史悠久的老图书馆（理科馆），图书馆与湖夹着的花园里有数棵高大的国家二级保护植物水杉傲然直立。南边隔着大中路的是造型别致的南开大学东方艺术大楼。西边是南开大学主要的教学大楼——第二主教学楼（简称：二主）。东面是南开大学最早的湖，马蹄湖，也是天津市几个主要的赏荷景点。新开湖滋养了一代又一代南开学子。\n"
+    </string>
 
+
+
+    <string name="intro_memorial">
+      "  国立西南联合大学纪念碑，简称西南联大纪念碑，包括原纪念碑和复制品共四座，第一座是1946年国立西南联合大学正式结束，清华、北大、南开即将回到天津、北平复校之际，西南联大师生在校址上树立的“国立西南联合大学纪念碑”，以纪念西南联合大学，如今该纪念碑作为国家重点文物保护单位矗立在昆明原联大校址（今云南师范大学校内）。[1]1989年，北京大学在校园中复制了西南联大纪念碑。2007年，西南联合大学建校70周年之际，南开大学和清华大学相继在各自校园复制西南联大纪念碑以纪念，成为各自学校的校园景观。至此，西南联大纪念碑共有四座，分别位于昆明、北京和天津。此外，西南联大三校还建造过其他形式的联大纪念碑。\n"
+    </string>
+
+    <string name="intro_memorial">
+        "  南开大学主楼1963年建成，2003年又进行了大规模的装修和翻新。主楼的设计沿中轴对称，气势雄伟，广场中间巍然挺立的周恩来总理雕像高大而伟岸。 2009年3月，入选天津十大标志性建筑。 \n"
+    </string>
 
 
 

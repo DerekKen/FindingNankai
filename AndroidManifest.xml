@@ -30,7 +30,14 @@
                 <category android:name="android.intent.category.CAT_WANDERING" />
             </intent-filter>
         </activity>
-        <activity android:name=".ScenariesList"></activity>
+        <activity
+            android:name=".ScenariesList"
+            android:theme="@style/OtherActivityTheme">
+            <action android:name="android.intent.action.WANDERING_" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.CAT_XIN_KAI" />
+        </activity>
     </application>
 
 </manifest>
