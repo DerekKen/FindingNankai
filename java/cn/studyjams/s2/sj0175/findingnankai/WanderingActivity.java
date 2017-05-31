@@ -16,9 +16,9 @@ public class WanderingActivity extends AppCompatActivity {
 
     public void schoolGate_OnClick(View v)
     {
+        
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         //继续"发现南开"，在校园中游玩：新开湖
         setContentView(R.layout.activity_wandering_02);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-
     }
 }

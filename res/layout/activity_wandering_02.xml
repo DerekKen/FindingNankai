@@ -15,10 +15,10 @@
         android:src="@drawable/xinkai_lake" />
 
     <TextView
-        android:id="@+id/intro_NKU_txtView"
+        android:id="@+id/intro_xinkai_lake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
+        android:layout_gravity="top"
         android:layout_margin="16dp"
         android:text="@string/intro_Nankai_University"
         android:textColor="#FFFFFF"
@@ -29,9 +29,10 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
         android:layout_marginBottom="16dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="32dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginRight="96dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/opaque_button_bg"
         android:fontFamily="sans-serif"
