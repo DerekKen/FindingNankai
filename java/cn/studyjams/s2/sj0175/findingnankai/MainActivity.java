@@ -23,14 +23,14 @@ public class MainActivity extends AppCompatActivity {
 
 
         //显式Intent的使用  (√)可以正常在活动之间跳转
-//        Intent wandering_intent = new Intent(MainActivity.this, WanderingActivity.class);
-//        startActivity(wandering_intent);
+        Intent wandering_intent = new Intent(MainActivity.this, WanderingActivity.class);
+        startActivity(wandering_intent);
 
 
         //隐式Intent的使用 (√) 成功
-        Intent implicit_wandering_intent = new Intent("android.intent.action.WANDERING_ACTION");
-        implicit_wandering_intent.addCategory("android.intent.category.CAT_WANDERING");
-        startActivity(implicit_wandering_intent);
+//        Intent implicit_wandering_intent = new Intent("android.intent.action.WANDERING_ACTION");
+//        implicit_wandering_intent.addCategory("android.intent.category.CAT_WANDERING");
+//        startActivity(implicit_wandering_intent);
     }
 
     public void exitBtn_OnClick(View v)
@@ -38,6 +38,5 @@ public class MainActivity extends AppCompatActivity {
         //结束Main Activity，与Back导航按键一样
         finish();
     }
-
 
 }

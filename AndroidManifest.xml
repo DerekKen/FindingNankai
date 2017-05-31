@@ -29,7 +29,6 @@
                 <category android:name="android.intent.category.CAT_WANDERING" />
             </intent-filter>
         </activity>
-        <activity android:name=".campus_scenes"></activity>
     </application>
 
 </manifest>
