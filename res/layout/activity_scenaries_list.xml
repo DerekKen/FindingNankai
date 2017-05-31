@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/jinnan_lib"
-        android:layout_width="225dp"
-        android:layout_height="150dp"
+        android:layout_width="400dp"
+        android:layout_height="267dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="4dp"
         app:srcCompat="@drawable/library_jinnan_campus" />
@@ -63,25 +63,6 @@
         tools:layout_constraintRight_creator="1" />
 
     <Button
-        android:id="@+id/premier_btn"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginTop="4dp"
-        android:background="@drawable/opaque_button_bg"
-        android:fontFamily="sans-serif"
-        android:onClick="on_premier_button_click"
-        android:text="@string/premier_button_text"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
-
-    <Button
         android:id="@+id/zhulou_btn"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
@@ -94,25 +75,6 @@
         android:fontFamily="sans-serif"
         android:onClick="on_zhulou_button_click"
         android:text="@string/zhulou_button_text"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
-
-    <Button
-        android:id="@+id/erzhu_btn"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginTop="4dp"
-        android:background="@drawable/opaque_button_bg"
-        android:fontFamily="sans-serif"
-        android:onClick="on_erzhulou_button_click"
-        android:text="@string/erzhulou_button_text"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         tools:layout_constraintBottom_creator="1"

@@ -11,7 +11,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="4dp"
-        android:src="@drawable/zhulou" />
+        android:src="@drawable/ma_ti_lake" />
 
     <Button
         style="@style/Widget.AppCompat.Button.Colored"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:layout_margin="16dp"
-            android:text="@string/intro_zhulou"
+            android:text="@string/intro_ma_ti_lake"
             android:textColor="#000000"
             android:textSize="16sp" />
     </ScrollView>
