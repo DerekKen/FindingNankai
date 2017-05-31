@@ -11,7 +11,7 @@
     <color name="exitButtonPressedColor">#FFD600</color>
 
 
-    <color name="opaqueButtonColor">#99673AB7</color>
+    <color name="opaqueButtonColor">#99673ab7</color>
     <color name="opaqueButtonPressedColor">#99311B92</color>
 
 </resources>

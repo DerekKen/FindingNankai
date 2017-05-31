@@ -11,7 +11,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="4dp"
-        android:src="@drawable/zhulou" />
+        android:src="@drawable/zhulou03" />
 
     <Button
         style="@style/Widget.AppCompat.Button.Colored"
