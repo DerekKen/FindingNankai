@@ -14,4 +14,8 @@
     <color name="opaqueButtonColor">#99673ab7</color>
     <color name="opaqueButtonPressedColor">#99311B92</color>
 
+
+    <color name="textColor">#FFFFFF</color>
+
+
 </resources>

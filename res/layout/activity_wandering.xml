@@ -22,7 +22,7 @@
         android:layout_gravity="top"
         android:layout_margin="16dp"
         android:text="@string/intro_Nankai_University"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="14sp" />
 
     <Button
@@ -35,10 +35,10 @@
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/opaque_button_bg"
+        android:background="@drawable/start_button_bg"
         android:fontFamily="sans-serif"
         android:text="@string/continue_journey_text"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="24sp"
         android:onClick="schoolGate_OnClick"
         app:layout_constraintBottom_toBottomOf="parent"

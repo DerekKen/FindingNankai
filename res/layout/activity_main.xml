@@ -27,6 +27,45 @@
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintTop_creator="1" />
 
+
+    <ImageView
+        android:id="@+id/start_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/start_icon_description"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/h_guideline_startBtn_bottom"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline_01"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline_02"
+        app:layout_constraintTop_toTopOf="@+id/h_guideline_startBtn_top"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/nku_logo_1200x1200" />
+
+
+    <ImageView
+        android:id="@+id/exit_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/exit_icon_description"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/h_guideline_01"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline_01"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline_02"
+        app:layout_constraintTop_toTopOf="@+id/h_guideline_02"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/exit_logo_white_200x200" />
+
+
     <Button
         android:id="@+id/start_button"
         style="@style/Widget.AppCompat.Button.Colored"
@@ -51,7 +90,8 @@
         tools:layout_constraintRight_creator="1" />
 
 
-    <TextView android:id="@+id/textView"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
@@ -99,7 +139,7 @@
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/exit_button_bg"
+        android:background="@drawable/start_button_bg"
         android:fontFamily="sans-serif"
         android:onClick="exitBtn_OnClick"
         android:paddingBottom="14dp"
@@ -107,7 +147,7 @@
         android:paddingRight="16dp"
         android:paddingTop="14dp"
         android:text="@string/exit_button_text"
-        android:textColor="@color/startButtonColor"
+        android:textColor="@color/textColor"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -131,37 +171,5 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="271dp" />
 
-    <ImageView
-        android:id="@+id/start_icon"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:contentDescription="@string/start_icon_description"
-        app:layout_constraintBottom_toTopOf="@+id/h_guideline_startBtn_bottom"
-        app:layout_constraintLeft_toLeftOf="@+id/v_guideline_01"
-        app:layout_constraintRight_toLeftOf="@+id/v_guideline_02"
-        app:layout_constraintTop_toTopOf="@+id/h_guideline_startBtn_top"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/nku_logo_1200x1200" />
-
-
-    <ImageView
-        android:id="@+id/exit_icon"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:contentDescription="@string/exit_icon_description"
-        app:layout_constraintBottom_toTopOf="@+id/h_guideline_01"
-        app:layout_constraintLeft_toLeftOf="@+id/v_guideline_01"
-        app:layout_constraintRight_toLeftOf="@+id/v_guideline_02"
-        app:layout_constraintTop_toTopOf="@+id/h_guideline_02"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/exit_logo_128x128" />
 
 </android.support.constraint.ConstraintLayout>
