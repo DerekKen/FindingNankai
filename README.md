@@ -5,4 +5,4 @@
   Any participant of Google StudyJams China who wishes to be awarded a certificate upon completion of StudyJams’ teaching courses, must share enough notes on Android courses, and finish an individual project(individually and no plagiarism of course) to apply for the certificate.
 
 
-使用Android Studio开发，整个项目比较大，只上传了源码和资源文件。
+使用Android Studio开发，整个项目比较大，上传的是/FindingNankai(项目名)/app/src/main/.目录下的文件。
